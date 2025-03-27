@@ -20,7 +20,7 @@ project "fastgltf"
 	includedirs
 	{
 		"include",
-		"deps"
+		"deps/simdjson"
 	}
   
 	filter "system:windows"
