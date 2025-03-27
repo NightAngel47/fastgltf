@@ -9,7 +9,9 @@ project "fastgltf"
 	files
 	{
 		"include/fastgltf/**.hpp",
-		"include/fastgltf/**.cpp",
+		
+		"src/**.ixx",
+		"src/**.cpp",
 	}
 
 	includedirs
@@ -19,6 +21,7 @@ project "fastgltf"
   
 	filter "system:windows"
 		systemversion "latest"
+	  	cppdialect "C++17"
 
 	filter "configurations:Debug"
 		runtime "Debug"
