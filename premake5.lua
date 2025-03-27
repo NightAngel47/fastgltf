@@ -19,7 +19,8 @@ project "fastgltf"
 
 	includedirs
 	{
-		"include"
+		"include",
+		"deps"
 	}
   
 	filter "system:windows"
