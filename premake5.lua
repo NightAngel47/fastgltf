@@ -9,9 +9,12 @@ project "fastgltf"
 	files
 	{
 		"include/fastgltf/**.hpp",
-		
+
 		"src/**.ixx",
 		"src/**.cpp",
+
+		"deps/simdjson/simdjson.h",
+		"deps/simdjson/simdjson.cpp",
 	}
 
 	includedirs
